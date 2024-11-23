@@ -4,13 +4,19 @@ namespace JsonSerialization.SerializationExamples;
 
 internal class SerializationExample
 {
-    public static void Run(Human human)
+    public static void Run()
     {
 
-        var executableDirectory = Environment.CurrentDirectory;
+		var executableDirectory = Environment.CurrentDirectory;
         var projectDirectory = Directory.GetParent(executableDirectory)?.Parent?.Parent?.FullName;
 
-        var jsonString = JsonSerializer.Serialize(human);
+		Human human = new()
+		{
+			name = "Test name",
+			age = 10,
+		};
+
+		var jsonString = JsonSerializer.Serialize(human);
 
         try
         {
@@ -23,7 +29,6 @@ internal class SerializationExample
         {
             Console.Write(e.Message);
         }
-
 
     }
 }
