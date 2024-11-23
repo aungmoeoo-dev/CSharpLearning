@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Kiwi",
+    "age": 12,
+    "parents": [
+      {
+        "name": "Kiwi's father'",
+        "age": 40,
+        "parents": null
+      },
+      {
+        "name": "Kiwi's mother'",
+        "age": 38,
+        "parents": null
+      }
+    ]
+  },
+  {
+    "name": "Lily",
+    "age": 18,
+    "parents": [
+      {
+        "name": "Lily's father'",
+        "age": 46,
+        "parents": null
+      },
+      {
+        "name": "Lily's mother'",
+        "age": 43,
+        "parents": null
+      }
+    ]
+  }
+]
