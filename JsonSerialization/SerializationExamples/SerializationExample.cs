@@ -20,7 +20,7 @@ internal class SerializationExample
 
         try
         {
-            var path = Path.Combine(projectDirectory, "serialized_human.json");
+            var path = Path.Combine(projectDirectory!, "serialized_human.json");
             File.WriteAllText(path, jsonString);
 
             Console.WriteLine("human saved.");
