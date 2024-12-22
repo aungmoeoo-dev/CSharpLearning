@@ -9,4 +9,11 @@ namespace DesignPatterns.StatePattern;
 public class Car
 {
 	private State _state { get; set; }
+
+	public int Speed { get; set; }
+
+	public void SetState(State state)
+	{
+		state.CommitState();
+	}
 }
