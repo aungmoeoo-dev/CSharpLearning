@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "Extensi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultPattern", "ResultPattern\ResultPattern.csproj", "{EB366320-F1E3-47E5-9CCC-DC0199BA88A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{D5DB94E4-A6E5-4E22-BCD1-EADF6019E485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{37167035-8372-4557-9ACD-FF67DBDF2078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{EB366320-F1E3-47E5-9CCC-DC0199BA88A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB366320-F1E3-47E5-9CCC-DC0199BA88A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB366320-F1E3-47E5-9CCC-DC0199BA88A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DB94E4-A6E5-4E22-BCD1-EADF6019E485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DB94E4-A6E5-4E22-BCD1-EADF6019E485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DB94E4-A6E5-4E22-BCD1-EADF6019E485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DB94E4-A6E5-4E22-BCD1-EADF6019E485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37167035-8372-4557-9ACD-FF67DBDF2078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37167035-8372-4557-9ACD-FF67DBDF2078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37167035-8372-4557-9ACD-FF67DBDF2078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37167035-8372-4557-9ACD-FF67DBDF2078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
