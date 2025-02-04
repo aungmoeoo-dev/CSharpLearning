@@ -2,6 +2,8 @@
 
 using ResultPattern;
 
+
+
 var result = Result<Human>.Success(new Human { Name = "Kiwi", Age = 22 });
 
 result.Match(
@@ -10,10 +12,10 @@ result.Match(
 		Console.WriteLine(man.Name);
 		return man;
 	},
-	OnFailure: (error) =>
+	OnFailure: (error, man) =>
 	{
 		Console.WriteLine($"Error: {error}");
-		return null;
+		return man;
 	});
 
 class Human

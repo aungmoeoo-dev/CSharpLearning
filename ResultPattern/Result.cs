@@ -25,10 +25,10 @@ public static class ResultExtension
 	public static T Match<T>(
 		this Result<T> result,
 		Func<T, T> OnSuccess,
-		Func<Error, T> OnFailure
+		Func<Error, T, T> OnFailure
 		)
 	{
 		if (result.IsSuccess) return OnSuccess(result.Value);
-		return OnFailure(result.Error);
+		return OnFailure(result.Error, result.Value);
 	}
 }

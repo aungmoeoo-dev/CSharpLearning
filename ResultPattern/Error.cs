@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ResultPattern;
 
-public class Error
+public record Error
 {
 	public string Code;
 	public string Description;
